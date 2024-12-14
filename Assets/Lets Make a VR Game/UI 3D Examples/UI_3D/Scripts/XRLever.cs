@@ -141,6 +141,7 @@ namespace UnityEngine.XR.Content.Interaction
                 float t = Mathf.InverseLerp(minAngle, maxAngle, GetLeverAngle());
                 currentTrainPosition = Mathf.Lerp(0, waypoints.Length - 1, t);
 
+                Int_statics.trainSPeed = t * 10.0f;
                 // Move the train to the calculated position along the path
                 MoveTrain(currentTrainPosition);
             }
