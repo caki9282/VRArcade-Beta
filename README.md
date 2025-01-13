@@ -1,4 +1,4 @@
-# Final Project Proposal: Name TBD
+# Final Project Proposal: The Martian Express
 
 The main loop of our game is you are a conductor for some space train and your goal is to keep the train running via shovleling space coal and other train maintance.
 
